@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="part.css">
+    <title> PRESENTATION PROFIL </title>
+    <h1> Ayman Elkhaddar </h1>
+    
+</head>
+<body> 
+    <section> 
+        <img src="" alt="">
+    </section>
+    
+        <p>
+            Ayman Elkhaddar, 19 ans, né à Casablanca, au Maroc. Curieux et passionné, je suis animé par l'envie d'apprendre et de repousser mes limites, que ce soit dans le domaine du développement d'applications ou dans ma vie quotidienne. Depuis mon jeune âge, j'ai toujours été attiré par la technologie et la créativité, ce qui m’a amené à envisager une carrière dans le développement d'applications. Mon ambition est de transformer cette passion en une profession inspirante et stimulante, où je pourrai innover et apporter des solutions utiles. En parallèle, je consacre mon temps libre à mes autres passions, notamment le sport, avec une préférence pour le football et le MMA, ainsi que les voyages et les moments partagés avec mes amis.        </p>
+        <p>
+           <h2>Pendant mon temps libre , j'aime : </h2> 
+            <ul> - Faire du sport </ul>
+            <ul> - Voyager </ul>
+            <ul> - Sortie avec des amis </ul>
+            <ul> - Jouer des jeux videos </ul>
+        </p>
+        <p>
+           <h2>Cette année, je vise à : </h2> 
+            <ol> - Aquérir plus de connaissance dans le monde informatique </ol>
+            <ol> - Devenir un developpeur polyvalent </ol>
+            <ol> - Visiter plusieurs villes/pays </ol>
+        </p>
+    <table>
+        <tr>
+            <th> Nom</th>
+            <th> Age</th>
+            <th> Ville</th>
+            <th> Lien vers profil </th>
+        </tr>
+        <tr>
+            <td> Walid</td>
+            <td> 21</td>
+            <td> Casablanca</td>
+            <td> <a href="https://github.com/walidwaoua/Cr-ation-de-page-devoir-walid-waoua"> Lien</a></td>
+        </tr>
+        <tr>
+            <td> Wassim </td>
+            <td> 20</td>
+            <td> Casablanca </td>
+            <td> <a href="https://github.com/wassimosss/profil-etud"> Lien</a></td>
+        </tr>
+        <h2> Liste d'amis :</h2>
+    </table>
+    <h2> Contact : </h2>
+    <label for="name">Nom </label>
+    <br>
+    <input type="text" id="name">
+    <br>
+    <label for="email">Email </label>
+    <br>
+    <input type="email" id="email">
+    <br>
+    <label for=" Message"> Message </label>
+    <br>
+    <textarea name=" Message " id="message"></textarea>
+    <br>
+    <button> Soumettre </button>
+
+    <script>
+        function validateForm() {
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+    
+          if (name === "") {
+            alert(" Le champ de nom ne doit pas être vide.");
+            return false; 
+          }
+    
+          if (!emailPattern.test(email)) {
+            alert(" Veuillez entrer un email valide.");
+            return false; 
+          }
+    
+          alert(" Formulaire soumis avec succès !");
+          return true; 
+        }
+      </script>
+    
+
+   
+</body>
+</html>
